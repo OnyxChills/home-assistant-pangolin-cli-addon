@@ -14,7 +14,6 @@ The add-on lets you configure:
 - **PANGOLIN_ENDPOINT**
 - **NEWT_ID**
 - **NEWT_SECRET**
-- Optional custom environment variables
 
 All configuration is handled through the Home Assistant add-on interface.
 
@@ -54,7 +53,6 @@ https://github.com/OnyxChills/home-assistant-pangolin-cli-addon
 - **PANGOLIN_ENDPOINT** (e.g., `https://example.com`)
 - **NEWT_ID**
 - **NEWT_SECRET**
-- **custom_env_vars** (optional) – Array of custom environment variables
 3. Click **Save** and then **Start**.
 4. Check the **Logs** tab to verify that everything is running correctly.
 

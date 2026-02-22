@@ -28,7 +28,6 @@ echo "  NEWT_SECRET=********"
 # 🔁 Auto-reconnect loop
 while true; do
     echo "🔹 Starting Pangolin CLI..."
-    # Custom variables are already exported above
     export PANGOLIN_ENDPOINT="$PANGOLIN_ENDPOINT"
     export NEWT_ID="$NEWT_ID"
     export NEWT_SECRET="$NEWT_SECRET"
