@@ -1,0 +1,22 @@
+name: "Pangolin CLI Add-on"
+version: "0.0.1"
+slug: "pangolin-cli"
+description: "Runs Pangolin CLI inside Home Assistant OS"
+arch:
+  - amd64
+  - aarch64
+startup: system
+host_network: true
+privileged:
+  - NET_ADMIN
+options:
+  PANGOLIN_ENDPOINT: "https://example.com"
+  NEWT_ID: "your_newt_id"
+  NEWT_SECRET: "your_newt_secret"
+schema:
+  PANGOLIN_ENDPOINT: "str"
+  NEWT_ID: "str"
+  NEWT_SECRET: "str"
+map:
+  - config:rw
+image: "ghcr.io/onyxchills/{arch}-ha-pangolin-cli-addon"
